@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+   audio {
+        width: 100%; /* Chiếm toàn bộ chiều ngang màn hình */
+        max-width: 400px; /* Tối đa 400px để không quá to */
+        display: block;
+        margin: 20px auto; /* Căn giữa và tạo khoảng cách */
+    }
 body {
     background: #f7c0c8;
     font-family: "Montserrat", sans-serif;
