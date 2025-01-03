@@ -4,12 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-   audio {
-        width: 100%; /* Chiếm toàn bộ chiều ngang màn hình */
-        max-width: 400px; /* Tối đa 400px để không quá to */
-        display: block;
-        margin: 20px auto; /* Căn giữa và tạo khoảng cách */
-    }
+ audio {
+    width: 80%;  /* Thanh audio sẽ chiếm 80% màn hình */
+    max-width: 350px;  /* Không vượt quá 350px trên màn hình lớn */
+    display: block;
+    margin: 30px auto;  /* Căn giữa và tạo khoảng cách lớn hơn */
+    border-radius: 8px;  /* Làm mềm góc của thanh audio */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Thêm hiệu ứng đổ bóng */
+}
 body {
     background: #f7c0c8;
     font-family: "Montserrat", sans-serif;
